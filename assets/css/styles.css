@@ -92,13 +92,230 @@ body{
     opacity: .7;
 }
 
+#choiceCardBox{
+    margin-top: 48px;
+    width: 100%;
+}
+
 .choiceCard{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 50px;
+    border-radius: 16px;
+    margin: 16px auto;
     background: #ffffff;
 }
 
+.choiceCardInner{
+    width: 475px;
+}
+
+.choiceCardInner h4{
+    width: 390px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1321;
+    opacity: .7;
+}
+.choiceCardInner p{
+    width: 390px;
+    margin: 16px 0 32px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: .7;
+}
+
+.choiceCardInner button{
+    padding: 12px 20px;
+    font-size: 20px;
+    color: #0D1321;
+    background: #ffffff;
+    border: 1px solid #111;
+    opacity: .7;
+}
+
 /* ending choice section */
+
+/* starting inspiration section */
+
+#inspirationSection{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    width: 76%; 
+    margin: 75px auto 150px;
+    background: #ffffff;
+}
+
+#inspirationHead{
+    width: 850px;
+    margin-bottom: 50px;
+}
+
+#inspirationHead h3{
+    font-size: 32px;
+    text-align: center;
+    color: #0D1321;
+}
+
+#inspirationHead p{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #0D1321;
+    opacity: .7;
+}
+
+#inspirationVideo{
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #a7a6a6;
+}
+
+/* ending inspiration section */
+
+/* starting current Target Section */
+
+#currentTargetSection{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    width: 76%; 
+    margin: 75px auto 150px;
+    background: #ffffff;
+}
+
+#currentTargetHead{
+    width: 850px;
+    margin-bottom: 50px;
+}
+
+#currentTargetHead h3{
+    font-size: 32px;
+    text-align: center;
+    color: #0D1321;
+}
+
+#currentTargetHead p{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #0D1321;
+    opacity: .7;
+}
+
+#currentTargetCardBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.currentTargetCard{
+    padding: 40px;
+    border-radius: 16px;
+    margin: 5px;
+}
+
+.c1{
+    background: #FF4C1E10;
+}
+.c2{
+    background: #004CE810;
+}
+.c3{
+    background: #FFDF0010;
+}
+
+
+.currentTargetCard img{
+    width: 55px;
+    height: 55px;
+}
+
+.currentTargetCard h4{
+    margin-top: 24px;
+    color: #0D1321;
+}
+
+.currentTargetCard p{
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: .7;
+}
+
+.currentTargetCard a{
+    margin-top: 24px;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+a:hover, a:visited{    
+    color: #0D1321;
+}
+
+/* ending current Target Section */
+
+/* starting support section */
+#supportSection{
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;  
+    width: 76%; 
+    height: 315px;
+    margin: 75px auto 150px;
+    border-radius: 16px;
+    padding: 48px 64px;
+    background: url(/assets/images/handshake.jpg);
+    background-position: center;
+}
+
+#supportHead h3{
+    margin-top: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#supportHead p{
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    opacity: .7;
+}
+
+#supportForm input[type="text"]{
+    border: none;
+    border-radius: 8px;
+    line-height: 3;
+    padding: 5px 15px;
+    color: #fff;
+}
+
+#supportForm input[type="text"]:focus{
+    outline: none;
+}
+
+#supportForm button{
+    margin-top: 32px;
+    padding: 5px 15px;
+    background: #ffffff;
+    font-size: 20px;
+    color: #0D1321;
+    border: none;
+    border-radius: 8px;
+}
+
+/* ending support section */
