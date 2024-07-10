@@ -16,7 +16,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    background: url(/assets/images/Hero-bg.png) no-repeat 0 20%;
+    background: url(assets/images/Hero-bg.png) no-repeat 0 20%;
     background-size: cover;
 }
 
@@ -283,7 +283,7 @@ a:hover, a:visited{
     margin: 75px auto 150px;
     border-radius: 16px;
     padding: 48px 64px;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(/assets/images/handshake.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(assets/images/handshake.jpg);
     background-position: center;
 }
 
